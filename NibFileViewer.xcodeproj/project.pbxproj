@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D82B5E7D1CA27F62006827B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B5E7C1CA27F62006827B0 /* AppDelegate.swift */; };
+		D82B5E7F1CA27F62006827B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B5E7E1CA27F62006827B0 /* ViewController.swift */; };
+		D82B5E811CA27F62006827B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82B5E801CA27F62006827B0 /* Assets.xcassets */; };
+		D82B5E841CA27F62006827B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82B5E821CA27F62006827B0 /* Main.storyboard */; };
+		D82B5E8C1CA27FFC006827B0 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B5E8B1CA27FFC006827B0 /* DragView.swift */; };
+		D82B5E8F1CA28248006827B0 /* CGContext+Convenient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B5E8E1CA28248006827B0 /* CGContext+Convenient.swift */; };
+		D8B7AFF61CA380A500B196B1 /* CGColor+Convenient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7AFF51CA380A500B196B1 /* CGColor+Convenient.swift */; };
+		D8B7AFF81CA38EFA00B196B1 /* Compiled Nib Opener.nib.zip in Resources */ = {isa = PBXBuildFile; fileRef = D8B7AFF71CA38EFA00B196B1 /* Compiled Nib Opener.nib.zip */; };
+		D8B7AFFA1CA3914500B196B1 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7AFF91CA3914500B196B1 /* FileManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D82B5E791CA27F62006827B0 /* NibFileViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibFileViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D82B5E7C1CA27F62006827B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D82B5E7E1CA27F62006827B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D82B5E801CA27F62006827B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D82B5E831CA27F62006827B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D82B5E851CA27F62006827B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D82B5E8B1CA27FFC006827B0 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
+		D82B5E8E1CA28248006827B0 /* CGContext+Convenient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGContext+Convenient.swift"; path = "Extensions/CGContext+Convenient.swift"; sourceTree = "<group>"; };
+		D8B7AFF51CA380A500B196B1 /* CGColor+Convenient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGColor+Convenient.swift"; path = "Extensions/CGColor+Convenient.swift"; sourceTree = "<group>"; };
+		D8B7AFF71CA38EFA00B196B1 /* Compiled Nib Opener.nib.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Compiled Nib Opener.nib.zip"; sourceTree = SOURCE_ROOT; };
+		D8B7AFF91CA3914500B196B1 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D82B5E761CA27F62006827B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D82B5E701CA27F62006827B0 = {
+			isa = PBXGroup;
+			children = (
+				D82B5E7B1CA27F62006827B0 /* NibFileViewer */,
+				D82B5E7A1CA27F62006827B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D82B5E7A1CA27F62006827B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D82B5E791CA27F62006827B0 /* NibFileViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D82B5E7B1CA27F62006827B0 /* NibFileViewer */ = {
+			isa = PBXGroup;
+			children = (
+				D82B5E8D1CA28225006827B0 /* Extensions */,
+				D82B5E7C1CA27F62006827B0 /* AppDelegate.swift */,
+				D8B7AFF91CA3914500B196B1 /* FileManager.swift */,
+				D82B5E7E1CA27F62006827B0 /* ViewController.swift */,
+				D82B5E801CA27F62006827B0 /* Assets.xcassets */,
+				D8B7AFF71CA38EFA00B196B1 /* Compiled Nib Opener.nib.zip */,
+				D82B5E821CA27F62006827B0 /* Main.storyboard */,
+				D82B5E851CA27F62006827B0 /* Info.plist */,
+				D82B5E8B1CA27FFC006827B0 /* DragView.swift */,
+			);
+			path = NibFileViewer;
+			sourceTree = "<group>";
+		};
+		D82B5E8D1CA28225006827B0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D82B5E8E1CA28248006827B0 /* CGContext+Convenient.swift */,
+				D8B7AFF51CA380A500B196B1 /* CGColor+Convenient.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D82B5E781CA27F62006827B0 /* NibFileViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D82B5E881CA27F62006827B0 /* Build configuration list for PBXNativeTarget "NibFileViewer" */;
+			buildPhases = (
+				D82B5E751CA27F62006827B0 /* Sources */,
+				D82B5E761CA27F62006827B0 /* Frameworks */,
+				D82B5E771CA27F62006827B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NibFileViewer;
+			productName = NibFileViewer;
+			productReference = D82B5E791CA27F62006827B0 /* NibFileViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D82B5E711CA27F62006827B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "星夜暮晨";
+				TargetAttributes = {
+					D82B5E781CA27F62006827B0 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = KNTXK6TU24;
+					};
+				};
+			};
+			buildConfigurationList = D82B5E741CA27F62006827B0 /* Build configuration list for PBXProject "NibFileViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D82B5E701CA27F62006827B0;
+			productRefGroup = D82B5E7A1CA27F62006827B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D82B5E781CA27F62006827B0 /* NibFileViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D82B5E771CA27F62006827B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D82B5E811CA27F62006827B0 /* Assets.xcassets in Resources */,
+				D82B5E841CA27F62006827B0 /* Main.storyboard in Resources */,
+				D8B7AFF81CA38EFA00B196B1 /* Compiled Nib Opener.nib.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D82B5E751CA27F62006827B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8B7AFF61CA380A500B196B1 /* CGColor+Convenient.swift in Sources */,
+				D82B5E8F1CA28248006827B0 /* CGContext+Convenient.swift in Sources */,
+				D82B5E7F1CA27F62006827B0 /* ViewController.swift in Sources */,
+				D8B7AFFA1CA3914500B196B1 /* FileManager.swift in Sources */,
+				D82B5E7D1CA27F62006827B0 /* AppDelegate.swift in Sources */,
+				D82B5E8C1CA27FFC006827B0 /* DragView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D82B5E821CA27F62006827B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D82B5E831CA27F62006827B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D82B5E861CA27F62006827B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D82B5E871CA27F62006827B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D82B5E891CA27F62006827B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NibFileViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1-xing.NibFileViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		D82B5E8A1CA27F62006827B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = NibFileViewer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.1-xing.NibFileViewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D82B5E741CA27F62006827B0 /* Build configuration list for PBXProject "NibFileViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82B5E861CA27F62006827B0 /* Debug */,
+				D82B5E871CA27F62006827B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D82B5E881CA27F62006827B0 /* Build configuration list for PBXNativeTarget "NibFileViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D82B5E891CA27F62006827B0 /* Debug */,
+				D82B5E8A1CA27F62006827B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D82B5E711CA27F62006827B0 /* Project object */;
+}
