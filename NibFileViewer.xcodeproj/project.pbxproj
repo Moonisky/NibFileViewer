@@ -12,8 +12,6 @@
 		D82B5E811CA27F62006827B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82B5E801CA27F62006827B0 /* Assets.xcassets */; };
 		D82B5E841CA27F62006827B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82B5E821CA27F62006827B0 /* Main.storyboard */; };
 		D82B5E8C1CA27FFC006827B0 /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B5E8B1CA27FFC006827B0 /* DragView.swift */; };
-		D82B5E8F1CA28248006827B0 /* CGContext+Convenient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82B5E8E1CA28248006827B0 /* CGContext+Convenient.swift */; };
-		D8B7AFF61CA380A500B196B1 /* CGColor+Convenient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7AFF51CA380A500B196B1 /* CGColor+Convenient.swift */; };
 		D8B7AFF81CA38EFA00B196B1 /* Compiled Nib Opener.nib.zip in Resources */ = {isa = PBXBuildFile; fileRef = D8B7AFF71CA38EFA00B196B1 /* Compiled Nib Opener.nib.zip */; };
 		D8B7AFFA1CA3914500B196B1 /* FileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B7AFF91CA3914500B196B1 /* FileManager.swift */; };
 /* End PBXBuildFile section */
@@ -26,8 +24,6 @@
 		D82B5E831CA27F62006827B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D82B5E851CA27F62006827B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D82B5E8B1CA27FFC006827B0 /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
-		D82B5E8E1CA28248006827B0 /* CGContext+Convenient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGContext+Convenient.swift"; path = "Extensions/CGContext+Convenient.swift"; sourceTree = "<group>"; };
-		D8B7AFF51CA380A500B196B1 /* CGColor+Convenient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGColor+Convenient.swift"; path = "Extensions/CGColor+Convenient.swift"; sourceTree = "<group>"; };
 		D8B7AFF71CA38EFA00B196B1 /* Compiled Nib Opener.nib.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "Compiled Nib Opener.nib.zip"; sourceTree = SOURCE_ROOT; };
 		D8B7AFF91CA3914500B196B1 /* FileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -62,7 +58,6 @@
 		D82B5E7B1CA27F62006827B0 /* NibFileViewer */ = {
 			isa = PBXGroup;
 			children = (
-				D82B5E8D1CA28225006827B0 /* Extensions */,
 				D82B5E7C1CA27F62006827B0 /* AppDelegate.swift */,
 				D8B7AFF91CA3914500B196B1 /* FileManager.swift */,
 				D82B5E7E1CA27F62006827B0 /* ViewController.swift */,
@@ -73,15 +68,6 @@
 				D82B5E8B1CA27FFC006827B0 /* DragView.swift */,
 			);
 			path = NibFileViewer;
-			sourceTree = "<group>";
-		};
-		D82B5E8D1CA28225006827B0 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				D82B5E8E1CA28248006827B0 /* CGContext+Convenient.swift */,
-				D8B7AFF51CA380A500B196B1 /* CGColor+Convenient.swift */,
-			);
-			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,12 +97,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "星夜暮晨";
 				TargetAttributes = {
 					D82B5E781CA27F62006827B0 = {
 						CreatedOnToolsVersion = 7.3;
 						DevelopmentTeam = KNTXK6TU24;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -156,8 +143,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D8B7AFF61CA380A500B196B1 /* CGColor+Convenient.swift in Sources */,
-				D82B5E8F1CA28248006827B0 /* CGContext+Convenient.swift in Sources */,
 				D82B5E7F1CA27F62006827B0 /* ViewController.swift in Sources */,
 				D8B7AFFA1CA3914500B196B1 /* FileManager.swift in Sources */,
 				D82B5E7D1CA27F62006827B0 /* AppDelegate.swift in Sources */,
@@ -193,8 +178,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -238,8 +225,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "-";
@@ -258,6 +247,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 			};
 			name = Release;
 		};
@@ -274,6 +264,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.1-xing.NibFileViewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -290,6 +281,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.1-xing.NibFileViewer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

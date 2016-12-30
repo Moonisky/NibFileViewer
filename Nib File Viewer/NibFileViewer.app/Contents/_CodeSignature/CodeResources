@@ -9,44 +9,28 @@
 		h++eA1KcvBH0HVsGIvdPavbShD0=
 		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			MeA4N1ZNUNP7W3oocjmWAroa+Bs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		u422IRjw/tvO2ILL3uMYVRYzUXU=
+		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dlHv99PAmp8kA7/saOLFjDwRK50=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		aKF9kKepmFisbYXXq2As5dZQv6s=
+		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			82kQGuYHnaPMBaaVynZFwyTHbrs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		tu+2HYChq0lfGaibKDtQb2ueGTE=
+		</data>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nB7lBCuHPWWjv20Q6xDBKKRML/c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<data>
+		G8DmbA2YjSxAdaqTT1ZQmMC0U94=
+		</data>
 		<key>Resources/Compiled Nib Opener.nib.zip</key>
 		<data>
 		7Mkhy5TXlHNZXXqxoxdIVXEJePQ=
+		</data>
+		<key>Resources/libswiftRemoteMirror.dylib</key>
+		<data>
+		BZDf42seJCdTt1wtGjqtWaxSTU8=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +39,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			HPTJYHbkXNYxsdQLSB5iMnnMXzA=
+			WZMEmKYShaApQsascmdqcwKZvAQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftAppKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -64,7 +48,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			EkiZZR7LdYaCWsjzfmABst1NNhE=
+			UNB56yua9UUerY1QvIPCVvrHKto=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -73,7 +57,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			rFtkJMRl2CoDhB3MuRQHBqArfq8=
+			P9vvka/VjFwmBhshxusv0Fe3Pkc=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreData" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -82,7 +66,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			xnmz4XGIO/2OcJDgqotOQJsXatA=
+			m9uw5kAALpVEIaO61bkmBVgEO/c=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreGraphics" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -91,7 +75,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			Dm6vK1NkFLqsvSQFSgAwv0++15g=
+			ksCr62P8g1WiegGQsfgdkLZhIyQ=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftCoreImage" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -100,7 +84,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			m0MTocRLY85NyOiYZqIUN4txKec=
+			TvvaCnM8tIFFam+I2ojFASMPmXM=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDarwin" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -109,7 +93,7 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			SMZRRYZyYiKoiU4VzcxcxulzYyc=
+			z1cKG7icdIqMGs4WbY+rqzu+olA=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftDispatch" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
@@ -118,19 +102,46 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			kUln2s2GucFi2rIIybnh6hH4NT8=
+			LuNT2QrKqnkKH3xS5h29UtdK5Fk=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftFoundation" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftIOKit.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			XS0xIuJWwgcCX13Rtw8KNuvy1Fk=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftIOKit" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			TqOrsA5o+GfJHxFouZKA/vMCIUk=
+			YckQ5xSrIt095SKHKKLfjpbF/Mk=
 			</data>
 			<key>requirement</key>
 			<string>identifier "com.apple.dt.runtime.swiftObjectiveC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftQuartzCore.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			ekgYz1ypiSCYMw11OfF+uajVKCk=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftQuartzCore" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
+		</dict>
+		<key>Frameworks/libswiftXPC.dylib</key>
+		<dict>
+			<key>cdhash</key>
+			<data>
+			EZ8zQbFOgNTD6ibs7ZQe+LbCNjU=
+			</data>
+			<key>requirement</key>
+			<string>identifier "com.apple.dt.runtime.swiftXPC" and anchor apple generic and certificate leaf[subject.CN] = "Mac Developer: Junyang Li (V8AP83G3X9)" and certificate 1[field.1.2.840.113635.100.6.2.1] /* exists */</string>
 		</dict>
 		<key>Resources/AppIcon.icns</key>
 		<dict>
@@ -147,53 +158,45 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MeA4N1ZNUNP7W3oocjmWAroa+Bs=
+			u422IRjw/tvO2ILL3uMYVRYzUXU=
 			</data>
 			<key>hash2</key>
 			<data>
-			zAg4V1RLBWKYZxHumOmv26GkZpfCEVvcCJ8dCnMViBc=
+			GOqgqJWo8dMfOz7ItkJ3T3WHk3HYsCfitNcVbFdCDqE=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/MainMenu.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dlHv99PAmp8kA7/saOLFjDwRK50=
+			aKF9kKepmFisbYXXq2As5dZQv6s=
 			</data>
 			<key>hash2</key>
 			<data>
-			xJ5BoFGS9h1bKLrh3tDsVH/AakeovnBuVfDIcXbrii8=
+			WzVZrp/gkDLt7hZYLAZuaTFwtQWLnM8vF1ONIg+/U7c=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/NSWindowController-B8D-0N-5wS.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			82kQGuYHnaPMBaaVynZFwyTHbrs=
+			tu+2HYChq0lfGaibKDtQb2ueGTE=
 			</data>
 			<key>hash2</key>
 			<data>
-			xpmx3LmrG/MbWzP66krgMOguPu10lJDDc0sug841248=
+			ES8izTdWmn1aNCrI08IKHDqg+WBvxcF/u2BnmL9ZHyg=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/Base.lproj/Main.storyboardc/XfG-lQ-9wD-view-m2S-Jp-Qdl.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nB7lBCuHPWWjv20Q6xDBKKRML/c=
+			G8DmbA2YjSxAdaqTT1ZQmMC0U94=
 			</data>
 			<key>hash2</key>
 			<data>
-			IsPYf0LXZ53GtZM36WXNzuWiYJDvB2vn+o/rzBaUcwo=
+			jvqNNThMN4SpFtumbcHlOX/XxWEzpsL1Fh0H0xG8hzs=
 			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>Resources/Compiled Nib Opener.nib.zip</key>
 		<dict>
@@ -204,6 +207,17 @@
 			<key>hash2</key>
 			<data>
 			DBCkohfDpDf/GFMP1jxirrilCCjN0/YVIkweQMFNw8o=
+			</data>
+		</dict>
+		<key>Resources/libswiftRemoteMirror.dylib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			BZDf42seJCdTt1wtGjqtWaxSTU8=
+			</data>
+			<key>hash2</key>
+			<data>
+			uffeXpuhQfCJaZm5vOqI+WdXi07wrksWVlgHWVgaU1E=
 			</data>
 		</dict>
 	</dict>
@@ -224,6 +238,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -283,6 +302,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

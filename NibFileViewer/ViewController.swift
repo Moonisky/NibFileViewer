@@ -9,28 +9,25 @@
 import Cocoa
 
 class ViewController: NSViewController {
-
-    @IBOutlet private var dargView: DragView!
+  
+  @IBOutlet fileprivate var dargView: DragView!
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        guard let openZip = NSBundle.mainBundle().pathForResource("Compiled Nib Opener.nib", ofType: "zip") else { return }
-        let zipTask = NSTask.launchedTaskWithLaunchPath("/usr/bin/unzip", arguments: [
-            "-u", openZip, "-d", NSTemporaryDirectory()
-        ])
-        zipTask.waitUntilExit()
-        FileManager.openerNibPath = NSTemporaryDirectory() + "Compiled Nib Opener.nib"
-        
-        dargView.registerForDraggedTypes([NSFilenamesPboardType])
+    guard let openZip = Bundle.main.path(forResource: "Compiled Nib Opener.nib", ofType: "zip") else { return }
+    let zipTask = Process.launchedProcess(launchPath: "/usr/bin/unzip", arguments: [
+      "-u", openZip, "-d", NSTemporaryDirectory()
+      ])
+    zipTask.waitUntilExit()
+    FileManager.openerNibPath = NSTemporaryDirectory() + "Compiled Nib Opener.nib"
+    
+    dargView.register(forDraggedTypes: [NSFilenamesPboardType])
+  }
+  
+  override var representedObject: Any? {
+    didSet {
+      // Update the view, if already loaded.
     }
-
-    override var representedObject: AnyObject? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
-
-
+  }
 }
-
